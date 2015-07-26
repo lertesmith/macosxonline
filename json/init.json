@@ -1,0 +1,31 @@
+{
+	"desk": 
+	{
+
+	},
+	"dock": 
+	{
+
+	},
+	"app": 
+	{
+		"appVendor":"网易",
+		"appName":"网易云音乐",
+		"appIcon":"163Music.png",
+		"appUrl":"http://music.163.com",
+	},
+	"app":
+	{
+		"appVendor":"搜狐",
+		"appName":"搜狐视频",
+		"appIcon":"sohuTv.png",
+		"appUrl":"http://tv.sohu.com/upload/sohuapp/index.html?api_key=da3f9e74e11fd79c4dfd9c2455ebeec9",
+	},
+	"file":
+	{
+		"fileName":"test.html",
+		"fileType":"text",
+		"filePath":"/Destop/",
+		"fileContent":"isdlgjsalkdgja",
+	}
+}

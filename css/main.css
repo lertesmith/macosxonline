@@ -1,0 +1,106 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{ margin: 0; padding: 0; }
+  .desktopBg {
+      background-image: url("../img/wallpaper/desktopBg.jpg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+  }
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (-moz-min-device-pixel-ratio: 1.5),
+  only screen and (-o-min-device-pixel-ratio: 3/2),
+  only screen and (min-device-pixel-ratio: 1.5) {
+    .desktopBg {
+      background-image: url("../img/wallpaper/desktopBg@2x.jpg");
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+  }
+  .topStatus {
+    background: rgb(253,230,230);
+    padding: 0 20px;
+  }
+  .topRight {
+    float: right;
+  }
+  .topRight i {
+    margin: 5px;
+  }
+  .topRight span {
+    color:black;
+  }
+  #wrapper {
+    margin-top: 20px;
+    height: 200px;
+  }
+  .folder {
+    background: url("../img/folder.png");
+    width: 64px;
+    height: 64px;
+  }
+  #footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 9000000000;
+    text-align: center;
+  }
+  .running {
+
+  }
+  #dock {
+    display: inline-block;
+    vertical-align: bottom;
+    background: rgba(102,107,118,.95);
+    list-style: none;
+    border-radius: 8px 8px 0 0;
+  }
+  #dock li {
+    display: inline-block;
+    vertical-align: bottom;
+    float: left;
+    height: 100%;
+    width: 56px;
+    height: 56px;
+    margin-top: 6.5px;
+    margin-bottom: 6.5px;
+    background-repeat: no-repeat;
+    background-size: 56px 56px;
+  }
+  #dock li:first-child {
+    margin-left: 6.5px;
+  }
+  #dock li:last-child {
+    margin-right: 6.5px;
+  }
+  #dock li:hover {
+    width: 64px;
+    height: 64px;
+    background-size: 64px 64px;
+  }
+  #finder {
+    background-image: url("../img/app/Finder.png");
+  }
+  #launchPad {
+    background-image: url("../img/app/launchPad.png");
+  }
+  #safari {
+    background-image: url("../img/app/compass.png");
+  }
+  #editor {
+    background-image: url("../img/app/Edit.png");
+  }
+  #calculator {
+    background-image: url("../img/app/calculator.png");
+  }
+  #qq {
+    background-image: url("../img/app/qq.png");
+  }
+  #music {
+    background-image: url("../img/app/163Music.png");
+  }
+  #setting {
+    background-image: url("../img/app/PrefApp.png");
+  }
